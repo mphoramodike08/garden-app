@@ -2,7 +2,7 @@ import datetime
 
 def garden_advice():
     month = datetime.datetime.now().month
-
+# ///
     if month in [12, 1, 2]:
         print("Summer: Water plants frequently and protect from heat.")
     elif month in [3, 4, 5]:
